@@ -26,3 +26,6 @@ user.properties
 *.iml
 *.ipr
 *.iws
+
+*~    #Text editor backups
+.*.sw* #Vim

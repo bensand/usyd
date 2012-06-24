@@ -1,0 +1,8 @@
+%h3 Usyd Study Notes
+%ul
+  - for file in @files
+    - filename = file.split('/').first
+    %li
+      %a{:href => filename}=filename
+
+=Maruku.new(File.read('readme.md')).to_html
